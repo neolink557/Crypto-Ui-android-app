@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="primary">#2d7dd2</color>
+    <color name="primary_accent">#2F2DD2</color>
+    <color name="primary_light">#2DD0D2</color>
+    <color name="secondary">#4ce166</color>
+    <color name="secondary_accent">#7DE14C</color>
+    <color name="secondary_light">#4CE1B1</color>
+    <color name="soft_black">#1c242e</color>
+    <color name="error">#ff4a4a</color>
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoinApp">
         <activity
-            android:name=".LocationActivity"
+            android:name=".ui.baseActivity.LocationActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
