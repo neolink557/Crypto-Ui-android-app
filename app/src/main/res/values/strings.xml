@@ -3,4 +3,6 @@
     <string name="enable_location">Enable Location</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enable_geolocation">Enable Geolocation</string>
+    <string name="enable_geolocation_description">By allowing geolocation you are allowing to use this app and share it with your cripto-friends</string>
 </resources>

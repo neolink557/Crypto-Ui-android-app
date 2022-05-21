@@ -32,9 +32,11 @@ class LocationFragment : Fragment() {
     private fun setUpLocationBtn() {
         binding.apply {
             buttonLocation.setOnClickListener {
-                locationFragment.transitionToEnd()
-                locationFragment.transitionToStart()
-                checkAnim.playAnimation()
+                //locationFragment.transitionToEnd()
+                //locationFragment.transitionToStart()
+                mapsAnim.setMinFrame(50)
+                mapsAnim.setMaxFrame(60)
+                buttonLocation.shrink()
             }
 
         }
@@ -44,7 +46,7 @@ class LocationFragment : Fragment() {
         binding.apply {
             mapsAnim.cancelAnimation()
             mapsAnim.setMinFrame(0)
-            mapsAnim.setMaxFrame(80)
+            mapsAnim.setMaxFrame(60)
         }
     }
 
